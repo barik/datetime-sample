@@ -1,0 +1,19 @@
+{
+  "name": "datetime-sample",
+  "version": "1.0.0",
+  "main": "dist/datetime.js",
+  "repository": "https://github.com/barik/datetime-sample.git",
+  "author": "Titus Barik <titus.barik@microsoft.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.10.4",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  },
+  "scripts": {
+    "start": "node dist/datetime.js",
+    "compile": "tsc -p ."
+  }
+}
