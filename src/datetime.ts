@@ -11,7 +11,6 @@ console.log(moment().format());
 moment().format("MMMM Do YYYY, h:mm:ss a");
 
 // Try: now.format("January 2021")
-// Checks type signature of moment.Moment.format.
 let now = moment();
 now.format("");
 
